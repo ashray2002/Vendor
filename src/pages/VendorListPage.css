@@ -1,0 +1,118 @@
+/* VendorListPage.css */
+
+.vendor-list-container {
+  /* Your container styles */
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.vendor-item:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vendor-item:hover {
+  background-color: #f1f1f1;
+}
+
+.view-link {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Vendor actions - You may adjust these styles */
+
+.vendor-actions {
+  display: flex;
+}
+
+.vendor-actions a,
+.vendor-actions button {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-link {
+  background-color: #28a745;
+}
+
+.edit-link {
+  background-color: #ffc107;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+/* Additional styling to enhance the UI */
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
+
+/* Adjust other styles as needed */

@@ -1,0 +1,20 @@
+/* ActiveVendorsCard.css */
+.active-vendors-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .active-vendors-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .quick-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #007bff; /* Change color as needed */
+  }
+  
